@@ -18,10 +18,11 @@ Arcade Paradiseのインストールフォルダは「C:\Program Files (x86)\Ste
     * mono
     * doorstop_config.ini
     * winhttp.dll
+3. 「ArcadeParadise.exe」と同じ階層に「1388870」と書いた「steam_appid.txt」を作成してください。
 4. 「ArcadeParadise.exe」を起動して、そのまま終了してください。
     * 初回起動時はBepInExが各種ファイルを生成するので少し時間かかります。
     * 先ほどコピーしたBepInExフォルダに入り、configやpluginsなどのフォルダが出来上がっていれば成功です。
 5. 本プラグインを「{Arcade Paradiseのインストールフォルダ}\BepInEx\plugins」にコピーしてください。
     * https://github.com/forest-soft/arcade_paradise_unbreakable_plugin/releases
-
-これでインストール完了です！
+6. 「ArcadeParadise.exe」を起動すれば完了です！
+    * Steamクライアントの「プレイ」ボタンから起動するとBepInExが読まれないらしく、本プラグインが動きません。
