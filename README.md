@@ -2,6 +2,8 @@
 Arcade Paradiseのゲーム機を壊れないようにするプラグインです。
 これを導入するとゲーム機が故障した時に出現するゴキブリ達に怯えることなくゲームをプレイできるようになります！
 
+画像
+
 # 動作環境
 Windows10、Steam版で動作確認をしました。
 
@@ -19,5 +21,6 @@ Windows10、Steam版で動作確認をしました。
     * 初回起動時はBepInExが各種ファイルを生成するので少し時間かかります。
     * 先ほどコピーしたBepInExフォルダに入り、configやpluginsなどのフォルダが出来上がっていれば成功です。
 5. 本プラグインを「{Arcade Paradiseのインストールフォルダ}\BepInEx\plugins」にコピーしてください。
+    * https://github.com/forest-soft/arcade_paradise_unbreakable_plugin/releases
 
 これでインストール完了です！
