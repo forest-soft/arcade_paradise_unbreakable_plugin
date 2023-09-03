@@ -1,6 +1,6 @@
 # Arcade Paradise Unbreakable Plugin
 Arcade Paradiseのゲーム機を壊れないようにするプラグインです。  
-これを導入するとゲーム機が故障した時に出現するゴキブリ達に怯えることなくゲームをプレイできるようになります！
+これを導入するとゲーム機が故障した時に出現するゴキブリ達に怯えることなくゲームをプレイできるようになります！  
 すでにゲーム機が壊れているセーブデータをロードした場合は修理された状態になります。
 
 ![(サムネイル.PNG)](https://github.com/forest-soft/arcade_paradise_unbreakable_plugin/blob/master/%E3%82%B5%E3%83%A0%E3%83%8D%E3%82%A4%E3%83%AB.PNG)
