@@ -24,5 +24,18 @@ Arcade Paradiseのインストールフォルダは「C:\Program Files (x86)\Ste
     * 先ほどコピーしたBepInExフォルダに入り、configやpluginsなどのフォルダが出来上がっていれば成功です。
 5. 本プラグインを「{Arcade Paradiseのインストールフォルダ}\BepInEx\plugins」にコピーしてください。
     * https://github.com/forest-soft/arcade_paradise_unbreakable_plugin/releases
-6. 「ArcadeParadise.exe」を起動すれば完了です！
-    * Steamクライアントの「プレイ」ボタンから起動するとBepInExが読まれないらしく、本プラグインが動きません。
+6. Arcade Paradiseを起動すれば完了です！
+
+# 補足
+* BepInExが読み込まれているか確認したい場合は「\BepInEx\config\BepInEx.cfg」の85行目あたりの「Enabled = false」を「Enabled = true」にしてください。  
+BepInExのログを表示するウインドウが表示されるようになります。
+```
+80: [Logging.Console]
+81: 
+82: ## Enables showing a console for log output.
+83: # Setting type: Boolean
+84: # Default value: false
+85: Enabled = false　←の「false」を「true」にしてください。
+```
+* Steamクライアントの「プレイ」ボタンから起動する際にBepInExが読み込まれていない場合はSteamクライアントを再起動してみてください。
+
