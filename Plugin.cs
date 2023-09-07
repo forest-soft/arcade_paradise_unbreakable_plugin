@@ -30,6 +30,10 @@ namespace arcade_paradise_unbreakable_plugin
                     if (broken_arcade_machine != null)
                     {
                         broken_arcade_machine.MachineFixed();
+
+                        // カメラをリセットしないと故障時にカメラの位置がおかしくなる。
+                        RAT.Managers.CameraManager.ResetCamera();
+
                         __result = false;
                     }
                 }
