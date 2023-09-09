@@ -3,9 +3,9 @@ Arcade Paradiseのゲーム機を壊れないようにするプラグインで�
 これを導入するとゲーム機が故障した時に出現するゴキブリ達に怯えることなくゲームをプレイできるようになります！  
 すでにゲーム機が壊れているセーブデータをロードした場合は修理された状態になります。
 
-This is a plug-in that prevents Arcade Paradise game consoles from being damaged.
-By introducing this, you will be able to play games without being scared of the cockroaches that appear when your game console breaks down!
-If you load save data whose game console is already broken, it will be repaired.
+This is a plug-in that prevents Arcade Paradise game consoles from being damaged.  
+By introducing this, you will be able to play games without being scared of the cockroaches that appear when your game console breaks down!  
+If you load save data whose game console is already broken, it will be repaired.  
 
 ![(サムネイル.PNG)](https://github.com/forest-soft/arcade_paradise_unbreakable_plugin/blob/master/%E3%82%B5%E3%83%A0%E3%83%8D%E3%82%A4%E3%83%AB.PNG)
 
