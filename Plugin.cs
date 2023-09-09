@@ -51,6 +51,8 @@ namespace arcade_paradise_unbreakable_plugin
                     // __instance.m_Reliability.y = MAX HP
                     if (__instance.m_Reliability.x != __instance.m_Reliability.y)
                     {
+                        // FileLog.Log("回復！");
+
                         // 壊れていなくてもこのメソッドを呼ぶと信頼性がMAXまで回復するっぽい。
                         arcade_machine.MachineFixed();
                     }
@@ -60,16 +62,15 @@ namespace arcade_paradise_unbreakable_plugin
 
         // 信頼性チェックをスキップするパッチ
         // このメソッドをPrefixで実行されないようにすると信頼性が減らなくなる。
-        // おそらくこのメソッドの中で信頼性の計算を行っていると思われるが、↑のパッチで信頼性を回復させれば十分なので使用しない。
-        /*
+        // おそらくこのメソッドの中で信頼性の計算を行っていると思われる。
         [HarmonyPatch(typeof(RAT.Managers.ArcadeMachineManager), nameof(RAT.Managers.ArcadeMachineManager.Reliability), MethodType.Normal)]
         public class RAT_Managers_ArcadeMachineManager_Reliability_Patch
         {
             static bool Prefix(RAT.Managers.ArcadeMachineManager __instance)
             {
+                // FileLog.Log($"call RAT_Managers_ArcadeMachineManager_Reliability_Patch");
                 return false;
             }
         }
-        */
     }
 }
